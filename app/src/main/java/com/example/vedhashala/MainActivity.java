@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.vedhashala;
 
 import androidx.appcompat.app.AppCompatActivity;
 
