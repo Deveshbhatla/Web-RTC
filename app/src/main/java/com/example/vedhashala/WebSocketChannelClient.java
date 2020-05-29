@@ -5,7 +5,6 @@ package com.example.vedhashala;
 import android.os.Handler;
 import android.util.Log;
 
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -29,7 +28,7 @@ public class WebSocketChannelClient {
   private static final int CLOSE_TIMEOUT = 1000;
   private final WebSocketChannelEvents events;
   private final Handler handler;
-  //private WebSocketConnection ws;
+  private WebSocketConnection ws;
   private String wsServerUrl;
   private String postServerUrl;
   private String roomID;
