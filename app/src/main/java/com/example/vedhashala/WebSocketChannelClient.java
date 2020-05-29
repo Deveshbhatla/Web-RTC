@@ -1,20 +1,11 @@
-/*
- *  Copyright 2014 The WebRTC Project Authors. All rights reserved.
- *
- *  Use of this source code is governed by a BSD-style license
- *  that can be found in the LICENSE file in the root of the source
- *  tree. An additional intellectual property rights grant can be found
- *  in the file PATENTS.  All contributing project authors may
- *  be found in the AUTHORS file in the root of the source tree.
- */
+
 
 package com.example.vedhashala;
 
 import android.os.Handler;
 import android.util.Log;
 
-import org.appspot.apprtc.util.AsyncHttpURLConnection;
-import org.appspot.apprtc.util.AsyncHttpURLConnection.AsyncHttpEvents;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -23,9 +14,8 @@ import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.tavendo.autobahn.WebSocket.WebSocketConnectionObserver;
-import de.tavendo.autobahn.WebSocketConnection;
-import de.tavendo.autobahn.WebSocketException;
+
+
 
 /**
  * WebSocket client implementation.
@@ -39,7 +29,7 @@ public class WebSocketChannelClient {
   private static final int CLOSE_TIMEOUT = 1000;
   private final WebSocketChannelEvents events;
   private final Handler handler;
-  private WebSocketConnection ws;
+  //private WebSocketConnection ws;
   private String wsServerUrl;
   private String postServerUrl;
   private String roomID;
