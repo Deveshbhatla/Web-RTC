@@ -7,7 +7,9 @@ import android.util.Log;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-
+import de.tavendo.autobahn.WebSocket.WebSocketConnectionObserver;
+import de.tavendo.autobahn.WebSocketConnection;
+import de.tavendo.autobahn.WebSocketException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
