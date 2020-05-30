@@ -27,14 +27,9 @@ public class MainActivity extends AppCompatActivity {
 
         button = findViewById(R.id.connectBtn);
 
-        button.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View arg0) {
-                Intent myIntent = new Intent(MainActivity.this, CallActivity.class);
-                startActivity(myIntent);
-            }
-
+        button.setOnClickListener(arg0 -> {
+            Intent myIntent = new Intent(MainActivity.this, CallActivity.class);
+            startActivity(myIntent);
         });
 
     }
