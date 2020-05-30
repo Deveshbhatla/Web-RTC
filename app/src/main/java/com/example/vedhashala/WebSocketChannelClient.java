@@ -5,6 +5,8 @@ package com.example.vedhashala;
 import android.os.Handler;
 import android.util.Log;
 
+import com.example.vedhashala.util.AsyncHttpURLConnection;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 import de.tavendo.autobahn.WebSocket.WebSocketConnectionObserver;
